@@ -38,11 +38,6 @@ The API reads the selected movie's first genre and queries TMDB's `/discover/mov
 
 ---
 
-
-## 📊 Dataset
-
-[Add the dataset name, source link and number of movies here.]
-
 ---
 
 ## 🔌 API Documentation
