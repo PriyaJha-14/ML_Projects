@@ -7,8 +7,13 @@ A full-stack movie discovery and recommendation app. Search any movie, open its 
 - **ML:** TF-IDF + cosine similarity (scikit-learn)
 - **Data/Images:** [TMDB API](https://www.themoviedb.org/documentation/api)
 
+---
 
-> The Render free tier sleeps when idle, so the first request after a pause can take 30–60 seconds. Later requests are fast.
+## 📊 Dataset
+ 
+The TF-IDF model is built from `movies_metadata.csv` in **[The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)** on Kaggle (metadata for more than 45,000 movies, including titles, genres, overviews, taglines, release dates and ratings).
+ 
+The raw CSV is not stored in this repository (it is large and git-ignored). The processed data and model files are included as the `.pkl` files, so you only need to download the CSV if you want to rebuild them with `movies.ipynb`.
 
 ---
 
